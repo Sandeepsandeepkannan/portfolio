@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-     <div className="h-screen bg-[#0b1a3a]">
+     <div className="h-screen bg-[#0b1a3a] text-white">
      <div className="h-20 w-full   sm:flex justify-between">
               <div className="pt-7  sm:pl-35 sm:pl-25 text-2xl flex"> <span><img className="h-15  ml-5 sm:ml-0  bg-white rounded " src=" https://img.icons8.com/?size=160&id=QJGwqSTZjaKi&format=png" alt="" /></span> <span className="font-semibold  ml-0  sm:ml-0 pt-1 pl-5 sm:pl-4  text-[40px]">Developer</span>  </div>
                 <div className="mr-25 pt-7 flex gap-15 text-[17px] font-semibold">
